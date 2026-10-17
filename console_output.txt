@@ -1,0 +1,55 @@
+/Users/korn3y/FKZI/OOP/lab_2/cmake-build-debug/lab_2
+Name: Arthur
+HP: 150
+Max Hp: 150
+Level: 5
+Weapon damage: 25
+Armor: 15
+Damage: Arthur attacks with a sword!
+35
+--------------------
+Name: Merlin
+HP: 80
+Max Hp: 80
+Level: 5
+Mana: 100
+Max mana: 100
+Spell damage: 35
+Damage: Merlin casts a spell!
+50
+--------------------
+Name: Robin
+HP: 100
+Max Hp: 100
+Level: 5
+Arrows: 20
+Bow damage: 30
+Damage: Robin shoots an arrow!
+40
+--------------------
+Warrior blocks damage:
+Name: Arthur
+HP: 125
+Max Hp: 150
+Level: 5
+Weapon damage: 25
+Armor: 15
+--------------------
+Mage restores mana:
+Name: Merlin
+HP: 80
+Max Hp: 80
+Level: 5
+Mana: 100
+Max mana: 100
+Spell damage: 35
+--------------------
+Archer reloads arrows:
+Name: Robin
+HP: 100
+Max Hp: 100
+Level: 5
+Arrows: 29
+Bow damage: 30
+
+Process finished with exit code 0

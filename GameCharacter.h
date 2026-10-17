@@ -5,13 +5,14 @@
 class GameCharacter {
 public:
     GameCharacter(std::string name, float hp, float max_hp, int level);
-    virtual void attack();
+    virtual float attack() = 0;
+    virtual void display_info() const;
+
     float take_damage(float damage);
     float heal(float amount);
-    void display_info() const;
     bool is_alive() const;
 
-private:
+protected:
     std::string name;
     float hp;
     float max_hp;

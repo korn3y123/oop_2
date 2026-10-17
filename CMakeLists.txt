@@ -3,4 +3,10 @@ project(lab_2)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(lab_2 main.cpp)
+add_executable(lab_2
+        main.cpp
+        GameCharacter.cpp
+        Warrior.cpp
+        Mage.cpp
+        Archer.cpp
+)
